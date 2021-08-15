@@ -40,11 +40,11 @@ void heapSort(int * vet, int n) {
 }
 
 void imprimirVetor(int * vet, int tam) {
-    printf("\n\nVetor Ordenado: \n");
+    printf("\n%d\n", tam);
 
     int i;
     for(i = 0; i < tam; i++) {
-        printf("%d ", vet[i]);
+        printf("%d\n", vet[i]);
     }
 }
 
